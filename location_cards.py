@@ -3,7 +3,7 @@ from data.source import OnlineSource
 from elements.text import TextElement
 from elements.rect import RectElement
 from elements.conditional import ConditionalElement
-from core.alignment import TopCenter, MiddleCenter
+from core.alignment import *
 from core.geometry import Point
 from core.scaling import PARENT
 from core.color import Color
@@ -53,7 +53,8 @@ schema = Schema(
                     font_path='alegreya',
                     fill='black',
                     font_size=40,
-                    alignment=MiddleCenter
+                    alignment=TopLeft,
+                    line_spacing=10,
                 )
             ]
         )

@@ -13,4 +13,11 @@ icon_paths = {
 
 icon_offsets = {
     'dmg' : (0, 5),
+
+    'dice1' : (0, 15),
+    'dice2' : (0, 15),
+    'dice3' : (0, 15),
+    'dice4' : (0, 15),
+    'dice5' : (0, 15),
+    'dice6' : (0, 15),
 }
