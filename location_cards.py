@@ -52,7 +52,7 @@ schema = Schema(
                     text='$effect$',
                     font_path='alegreya',
                     fill='black',
-                    font_size=40,
+                    font_size=30,
                     alignment=TopLeft,
                     line_spacing=10,
                 )
