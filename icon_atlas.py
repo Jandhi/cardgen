@@ -10,3 +10,7 @@ icon_paths = {
     'dice5' : 'dice/5.png',
     'dice6' : 'dice/6.png',
 }
+
+icon_offsets = {
+    'dmg' : (0, 5),
+}
