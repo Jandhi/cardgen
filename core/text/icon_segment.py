@@ -21,12 +21,13 @@ class IconSegment:
         self.name = name
         self.max_icon_size = max_icon_size
 
-        size = self.icon.size or Point(*self.image.size)
+        size = Point(*self.image.size)
 
         if size.x > max_icon_size.x or size.y > max_icon_size.y:
             scale_diff = max(size.x / max_icon_size.x, size.y / max_icon_size.y)
             self.image = self.image.resize((int(size.x / scale_diff), int(size.y / scale_diff)))
-            self.size = Point(*self.image.size)
+            
+        self.size = Point(*self.image.size)
 
     def draw(self, coords : Point, line_size : Point, image : Image.Image):
         whitespace = line_size.y - self.size.y

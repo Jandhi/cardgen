@@ -1,7 +1,11 @@
 from core.icon import Icon
 
 Icon(
-    name='plusone',
-    path='Plusone.png',
-    transparent=False,
+    name='shield',
+    path='shield.png',
+)
+
+Icon(
+    name='open1to3',
+    path='open1to3.png',
 )
